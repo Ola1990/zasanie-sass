@@ -1,0 +1,31 @@
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+//    background-color: white;
+    
+    
+    .navbar-brand {
+        text-decoration: none;
+        color: #1ac056;
+    }
+ 
+    ul {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        margin: 0;
+
+
+        li {
+            display: inline-block;
+            text-decoration: inherit;
+            
+            a {
+                text-decoration: none;
+            color: #1ac056;
+            }
+        }
+        }
+    }

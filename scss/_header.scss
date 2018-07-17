@@ -1,0 +1,33 @@
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    h1 {
+        position: absolute;
+        top: 40%;
+        right: 180px;;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    #navigation-header {
+        position: absolute;
+        top: 50%;
+        right: 350px;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+    }
+    .btn {
+        position: absolute;
+        top: 65%;
+        right: 550px;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+    }
+}
