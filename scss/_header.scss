@@ -10,14 +10,14 @@ header {
     
     h1 {
         position: absolute;
-        top: 40%;
+        top: 20%;
         right: 180px;;
         transform: translate(-50%, -50%);
         color: white;
     }
     #navigation-header {
         position: absolute;
-        top: 50%;
+        top: 25%;
         right: 350px;
         transform: translate(-50%, -50%);
         color: white;
@@ -25,9 +25,20 @@ header {
     }
     .btn {
         position: absolute;
-        top: 65%;
+        top: 35%;
         right: 550px;
         transform: translate(-50%, -50%);
         font-size: 1rem;
+        background-color: aqua;
+        padding: 10px;
+        text-decoration: inherit;
+        color: white;
+        border-radius: 20%;
+    }
+    .btn:hover {
+        background-color: #fff;
+        color: aqua;
+        border: 1px solid aqua;
+        
     }
 }

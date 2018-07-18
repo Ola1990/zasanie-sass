@@ -7,7 +7,7 @@
 
 #main-nav .navbar-brand {
     text-decoration: none;
-    color: #1ac056;
+    color: #fff;
 }
 
 #main-nav ul {
@@ -24,7 +24,11 @@
 
 #main-nav ul li a {
     text-decoration: none;
-    color: #1ac056;
+    color: #fff;
+}
+
+#main-nav ul li a:hover {
+    color: aqua;
 }
 
 header {
@@ -40,7 +44,7 @@ header {
 
 header h1 {
     position: absolute;
-    top: 40%;
+    top: 20%;
     right: 180px;
     transform: translate(-50%, -50%);
     color: white;
@@ -48,7 +52,7 @@ header h1 {
 
 header #navigation-header {
     position: absolute;
-    top: 50%;
+    top: 25%;
     right: 350px;
     transform: translate(-50%, -50%);
     color: white;
@@ -57,14 +61,72 @@ header #navigation-header {
 
 header .btn {
     position: absolute;
-    top: 65%;
+    top: 35%;
     right: 550px;
     transform: translate(-50%, -50%);
     font-size: 1rem;
+    background-color: aqua;
+    padding: 10px;
+    text-decoration: inherit;
+    color: white;
+    border-radius: 20%;
 }
 
-html {
+header .btn:hover {
+    background-color: #fff;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+#services {
     position: relative;
+}
+
+#services #title-services {
+    text-align: center;
+}
+
+#services #section-icons {
+    position: absolute;
+    display: inline-block;
+}
+
+#services #section-icons .icons {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#services #section-icons .icons .under-icons {
+    position: relative;
+    background-color: aqua;
+    font-size: 3rem;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 170px;
+}
+
+#services #section-icons .icons .fas, #services #section-icons .icons .far {
+    position: absolute;
+    top: 18%;
+    left: 10px;
+    transform: translate(-50%, -50%), rotate(0deg);
+    transition-duration: 1s;
+}
+
+#services #section-icons .icons .fas:hover, #services #section-icons .icons .far:hover {
+    transform: rotate(360deg);
+}
+
+#services #section-icons .icons .section-paragraph {
+    font-size: 1.5rem;
+}
+
+#services #section-icons .icons .section-paragraph1 {
+    font-size: 1rem;
+    padding: 10px;
 }
 
 body {

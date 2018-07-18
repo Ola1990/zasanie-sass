@@ -1,0 +1,48 @@
+#services {
+    position: relative;
+    
+    #title-services {
+        text-align: center;
+    }
+
+    #section-icons {
+        position: absolute;
+        display: inline-block;
+
+
+        .icons {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+            
+            .under-icons {
+                position: relative;
+                background-color: aqua;
+                font-size: 3rem;
+                color: white;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                left: 170px;
+                
+            }
+            .fas, .far {
+                position: absolute;
+                top: 18%;
+                left: 10px;
+                transform: translate(-50%, -50%), rotate(0deg);
+                transition-duration: 1s;
+            }
+            .fas:hover, .far:hover {
+                transform:rotate(360deg);
+            }
+            .section-paragraph {
+                font-size: 1.5rem;
+            }
+            .section-paragraph1 {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+    }
+}

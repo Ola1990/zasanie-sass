@@ -3,12 +3,12 @@
     top: 0;
     width: 100%;
     display: inline-block;
-//    background-color: white;
+
     
     
     .navbar-brand {
         text-decoration: none;
-        color: #1ac056;
+        color: #fff;
     }
  
     ul {
@@ -24,7 +24,10 @@
             
             a {
                 text-decoration: none;
-            color: #1ac056;
+            color: #fff;
+            }
+            a:hover {
+                color: aqua;
             }
         }
         }
