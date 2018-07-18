@@ -1,31 +1,32 @@
 header {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-image: url(../img/header/pictures_on_the_wall.jpg);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
     top: 0;
-    background-position: center;
+    background-position: center; 
     background-size: cover;
     text-align: center;
     
     h1 {
         position: absolute;
-        top: 20%;
-        right: 180px;;
+        top: 40%;
+        right: 200px;
         transform: translate(-50%, -50%);
         color: white;
     }
     #navigation-header {
         position: absolute;
-        top: 25%;
-        right: 350px;
+        top: 45%;
+        right: 380px;
         transform: translate(-50%, -50%);
         color: white;
         font-size: 2rem;
     }
     .btn {
         position: absolute;
-        top: 35%;
+        top: 60%;
         right: 550px;
         transform: translate(-50%, -50%);
         font-size: 1rem;

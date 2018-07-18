@@ -32,6 +32,7 @@
 }
 
 header {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-image: url(../img/header/pictures_on_the_wall.jpg);
@@ -44,16 +45,16 @@ header {
 
 header h1 {
     position: absolute;
-    top: 20%;
-    right: 180px;
+    top: 40%;
+    right: 200px;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 header #navigation-header {
     position: absolute;
-    top: 25%;
-    right: 350px;
+    top: 45%;
+    right: 380px;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
@@ -61,7 +62,7 @@ header #navigation-header {
 
 header .btn {
     position: absolute;
-    top: 35%;
+    top: 60%;
     right: 550px;
     transform: translate(-50%, -50%);
     font-size: 1rem;
@@ -87,7 +88,7 @@ header .btn:hover {
 }
 
 #services #section-icons {
-    position: absolute;
+    position: relative;
     display: inline-block;
 }
 
@@ -129,12 +130,66 @@ header .btn:hover {
     padding: 10px;
 }
 
+#portfolio {
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+#portfolio #title-portfolio {
+    text-align: center;
+}
+
+#portfolio #container1, #portfolio #container2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#portfolio #container1 .box, #portfolio #container2 .box {
+    display: inline-block;
+    width: 30%;
+}
+
+#portfolio #container1 .box .image-portfolio, #portfolio #container2 .box .image-portfolio {
+    height: 50vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio #container1 .box #image1, #portfolio #container2 .box #image1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio #container1 .box #image2, #portfolio #container2 .box #image2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio #container1 .box #image3, #portfolio #container2 .box #image3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio #container1 .box #image4, #portfolio #container2 .box #image4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio #container1 .box #image5, #portfolio #container2 .box #image5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio #container1 .box #image6, #portfolio #container2 .box #image6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+html {
+    position: relative;
+}
+
 body {
     position: relative;
-    height: 100%;
     margin: 0;
     font-family: "Lato", sans-serif;
-    padding: 0;
     color: #291f1a;
     font-weight: 300;
 }

@@ -1,16 +1,17 @@
 @import 'nav';
 @import 'header';
 @import 'services';
-//html {
-//    position: relative;
-//}
+@import 'portfolio';
+html {
+    position: relative;
+}
 
 body {
     position: relative;
-    height: 100%;
+//    height: 100%;
     margin: 0;
     font-family: "Lato", sans-serif;
-    padding: 0;
+//    padding: 0;
     color: #291f1a;
     font-weight: 300;
     

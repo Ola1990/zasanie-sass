@@ -1,0 +1,47 @@
+#portfolio {
+    position: relative;
+    background-color: #f7f7f7;
+
+    #title-portfolio {
+        text-align: center;
+    }
+
+    #container1, #container2 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+        .box {
+            display: inline-block;
+            width: 30%;
+
+            .image-portfolio {
+                height: 50vh;
+                overflow: hidden;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            #image1 {
+                background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+
+            }
+            #image2 {
+                background-image: url(../img/portfolio/typing_on_laptop.jpg);
+            }
+            #image3 {
+                background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+            }
+            #image4 {
+                background-image: url(../img/portfolio/chaotic_paint.jpg);
+            }#image5 {
+                background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+            }#image6 {
+                background-image: url(../img/portfolio/box_of_cookies.jpg);
+            }
+            
+        }
+    }
+}

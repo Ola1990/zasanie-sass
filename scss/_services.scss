@@ -6,14 +6,14 @@
     }
 
     #section-icons {
-        position: absolute;
+        position: relative;
         display: inline-block;
 
 
         .icons {
             display: inline-block;
             width: 33%;
-            text-align: center;
+            text-align: center; 
             
             .under-icons {
                 position: relative;
