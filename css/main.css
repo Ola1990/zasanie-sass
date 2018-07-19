@@ -358,6 +358,33 @@ header .btn:hover {
     border: 1px solid aqua;
 }
 
+footer {
+    position: relative;
+}
+
+footer #one {
+    position: absolute;
+    top: 10px;
+}
+
+footer #two {
+    position: absolute;
+    right: 700px;
+    top: 10px;
+}
+
+footer #two .icons-1 {
+    display: inline-block;
+}
+
+footer #three {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    padding: 5px;
+    margin: 0;
+}
+
 html {
     position: relative;
 }
