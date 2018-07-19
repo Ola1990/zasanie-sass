@@ -139,47 +139,180 @@ header .btn:hover {
     text-align: center;
 }
 
-#portfolio #container1, #portfolio #container2 {
+#portfolio #container1,
+  #portfolio #container2 {
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
-#portfolio #container1 .box, #portfolio #container2 .box {
+#portfolio #container1 .box,
+    #portfolio #container2 .box {
     display: inline-block;
     width: 30%;
+    background-color: white;
 }
 
-#portfolio #container1 .box .image-portfolio, #portfolio #container2 .box .image-portfolio {
+#portfolio #container1 .box .image-portfolio,
+      #portfolio #container2 .box .image-portfolio {
     height: 50vh;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition-duration: 0.3s;
 }
 
-#portfolio #container1 .box #image1, #portfolio #container2 .box #image1 {
+#portfolio #container1 .box #image1,
+      #portfolio #container2 .box #image1 {
     background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
 }
 
-#portfolio #container1 .box #image2, #portfolio #container2 .box #image2 {
+#portfolio #container1 .box #image2,
+      #portfolio #container2 .box #image2 {
     background-image: url(../img/portfolio/typing_on_laptop.jpg);
 }
 
-#portfolio #container1 .box #image3, #portfolio #container2 .box #image3 {
+#portfolio #container1 .box #image3,
+      #portfolio #container2 .box #image3 {
     background-image: url(../img/portfolio/child_with_blue_paint.jpg);
 }
 
-#portfolio #container1 .box #image4, #portfolio #container2 .box #image4 {
+#portfolio #container1 .box #image4,
+      #portfolio #container2 .box #image4 {
     background-image: url(../img/portfolio/chaotic_paint.jpg);
 }
 
-#portfolio #container1 .box #image5, #portfolio #container2 .box #image5 {
+#portfolio #container1 .box #image5,
+      #portfolio #container2 .box #image5 {
     background-image: url(../img/portfolio/house_with_blue_doors.jpg);
 }
 
-#portfolio #container1 .box #image6, #portfolio #container2 .box #image6 {
+#portfolio #container1 .box #image6,
+      #portfolio #container2 .box #image6 {
     background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio #container1 .box .inside-box,
+      #portfolio #container2 .box .inside-box {
+    overflow: hidden;
+}
+
+#portfolio #container1 .box .blue-mask,
+      #portfolio #container2 .box .blue-mask {
+    position: relative;
+    background-color: rgba(14, 216, 214, 0);
+    height: 50vh;
+    transition-duration: 0.3s;
+}
+
+#portfolio #container1 .box .blue-mask:hover,
+      #portfolio #container2 .box .blue-mask:hover {
+    background-color: rgba(14, 216, 214, 0.5);
+}
+
+#portfolio #container1 .box .image-portfolio:hover,
+      #portfolio #container2 .box .image-portfolio:hover {
+    transform: scale(1.5);
+}
+
+#portfolio #container1 .box .plus,
+      #portfolio #container2 .box .plus {
+    position: absolute;
+    top: 15%;
+    right: 100px;
+    transform: translate(-50%, -50%);
+    right: 180px;
+    color: white;
+    opacity: 0;
+    transition-opacity: 1s;
+    font-size: 5rem;
+    transform: scale(1.5);
+}
+
+#portfolio #container1 .box .plus:hover,
+      #portfolio #container2 .box .plus:hover {
+    opacity: 1;
+}
+
+#team {
+    position: relative;
+}
+
+#team #section-title {
+    text-align: center;
+}
+
+#team #people .image-team {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+#team .image-team {
+    width: 33%;
+}
+
+#team #data .name {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#team .icons1, #team .icons2, #team icons3 {
+    position: relative;
+}
+
+#team .fab {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#team #icons-team .icons-team1 .icons1 {
+    display: inline-block;
+}
+
+#team #icons-team .icons-team2 .icons2 {
+    display: inline-block;
+}
+
+#team #icons-team .icons-team3 .icons3 {
+    display: inline-block;
+}
+
+#team .icons-team1,
+  #team .icons-team2,
+  #team .icons-team3 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#team #men1 {
+    background-image: url(../img/team/man-1.jpg);
+    padding: 20px;
+}
+
+#team #men2 {
+    background-image: url(../img/team/man-2.jpg);
+    position: absolute;
+    right: 550px;
+    padding: 20px;
+}
+
+#team #women1 {
+    background-image: url(../img/team/woman-1.jpg);
+    position: absolute;
+    right: 90px;
+    padding: 20px;
+    margin: 20px;
 }
 
 html {
