@@ -1,0 +1,40 @@
+#contact {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+    color: white;
+    height: 50vh;
+
+    #title-contact {
+        text-align: center;
+        padding: 10px;
+    }
+
+    textarea {
+        position: absolute;
+        right: 200px;
+        width: 30%;
+        top: 35%;
+    }
+    input {
+        position: absolute;
+        left: 200px;
+        width: 30%;
+        padding: 5px;
+       
+    }
+    #btn2 {
+        position: absolute;
+        left: 600px;
+        bottom: 50px;
+        background-color: aqua;
+        color: white;
+        padding: 10px;
+        border: 0;
+        border-radius: 20%;
+    }
+    #btn2:hover {
+        color: aqua;
+        background-color: white;
+        border: 1px solid aqua;
+    } 
+}

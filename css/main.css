@@ -315,6 +315,49 @@ header .btn:hover {
     margin: 20px;
 }
 
+#contact {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+    color: white;
+    height: 50vh;
+}
+
+#contact #title-contact {
+    text-align: center;
+    padding: 10px;
+}
+
+#contact textarea {
+    position: absolute;
+    right: 200px;
+    width: 30%;
+    top: 35%;
+}
+
+#contact input {
+    position: absolute;
+    left: 200px;
+    width: 30%;
+    padding: 5px;
+}
+
+#contact #btn2 {
+    position: absolute;
+    left: 600px;
+    bottom: 50px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 20%;
+}
+
+#contact #btn2:hover {
+    color: aqua;
+    background-color: white;
+    border: 1px solid aqua;
+}
+
 html {
     position: relative;
 }
